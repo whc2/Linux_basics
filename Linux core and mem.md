@@ -17,3 +17,12 @@ cat /proc/cpuinfo| grep "cpu cores"| uniq
 
 # 查看CPU信息（型号）
 > cat /proc/cpuinfo | grep name | cut -f2 -d: | uniq -c
+
+# 计算一个目录和子目录的大小
+> du -h  ./
+
+# 查看一个目录的文件数
+> ls -lR ./ | grep "^-"| wc -l
+
+# 查看一个目录的子目录数
+> ls -lR ./ | grep "^d"| wc -l
