@@ -1,14 +1,14 @@
 # 查看系统版本
-lsb_release -a
+> lsb_release -a
 
-cat /etc/redhat-release
+> cat /etc/redhat-release
 
-cat /etc/issue
+> cat /etc/issue
 
 # 查看内核版本
-cat /proc/version
+> cat /proc/version
 
-uname -a
+> uname -a
 
 # 总核数 = 物理CPU个数 X 每颗物理CPU的核数 
 # 总逻辑CPU数 = 物理CPU个数 X 每颗物理CPU的核数 X 超线程数
