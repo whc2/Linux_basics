@@ -1,3 +1,6 @@
+# 查看系统版本
+>>> lsb_release -a
+
 # 总核数 = 物理CPU个数 X 每颗物理CPU的核数 
 # 总逻辑CPU数 = 物理CPU个数 X 每颗物理CPU的核数 X 超线程数
 
