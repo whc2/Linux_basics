@@ -38,3 +38,6 @@ cat /proc/cpuinfo| grep "cpu cores"| uniq
 
 # 查看一个目录的子目录数
 > ls -lR ./ | grep "^d"| wc -l
+
+# 查看slurm系统的节点内存和cpu
+sinfo -N -o "%N %m %c %T" | less -SN
