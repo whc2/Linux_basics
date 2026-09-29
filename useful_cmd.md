@@ -8,3 +8,6 @@ ps aux | grep "ssh -N -f -L localhost:8888"
 #kill
 kill 66824
 ```
+
+### find后删除结果文件
+find . -name '*~' -type f -delete
